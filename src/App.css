@@ -1,0 +1,166 @@
+.app {
+    background-image: url('https://web-assets.cdn.dealersolutions.com.au/modular.multisite.dealer.solutions/wp-content/uploads/2019/05/31134110/IS-background_0008_Honeycomb-Grill-1200x675.jpg');
+    color: white;
+    font-family: Independent-Lato-Regular, Arial, Helvetica, san-serif;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.row.topbar {
+    padding-top: 25px;
+}
+
+.capital {
+    text-transform: uppercase;
+}
+
+p.capital.used {
+    align-items: center;
+}
+
+.topbar p {
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.topbar h3 {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.top-col {
+    margin: auto;
+    cursor: pointer;
+}
+
+.top-col.right {
+    text-align: right;
+}
+
+.middle {
+    padding: 5px;
+    padding-top: 15px;
+    margin: 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(241, 244, 246, 0.75);
+}
+
+.main {
+    padding: 5px;
+    padding-top: 15px;
+    margin: 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f1f4f6;
+    color: black;
+}
+
+.advanced {
+    padding: 5px;
+    padding-top: 15px;
+    margin: 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f1f4f6;
+    color: black;
+}
+
+.search-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn.capital {
+    color: black;
+    background: #fedc01;
+    width: 100%;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.row.actions {
+    margin-top: 10px;
+}
+
+.advanced-search {
+    align-items: center;
+}
+
+.advanced-search a {
+    /* color: #fedc01; */
+    color: white;
+    cursor: pointer;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.MuiTooltip-tooltip {
+    color: black !important;
+    background-color: inherit !important;
+    font-size: 20px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+div.MuiTooltip-popper:nth-of-type(2n+1) {
+    top: 63px !important;
+}
+
+.MuiSlider-markLabel {
+    top: 13.5px !important;
+}
+
+.search-content img {
+    width: 100% !important;
+}
+
+.card.text-center {
+    border: none;
+    background: #f1f4f6;
+    cursor: pointer;
+}
+
+.card.text-center p {
+    margin-bottom: 0px;
+    /* font-family: 'DS_ISv4_Category_Icons'; */
+}
+
+.card.text-center .card-body {
+    padding: 4px;
+}
+
+.strong-disabled {
+    opacity: 0.2;
+}
+
+.disabled {
+    opacity: 0.4;
+}
+
+.strikethrough {
+    position: relative;
+    cursor: not-allowed !important;
+}
+
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 25%;
+    right: 0;
+    border-top: 2px solid;
+    border-color: black;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
